@@ -27,28 +27,6 @@
     color: white;
 }
 
-.btn-lg{
-    background-color: inherit;
-    padding: 16px 48px;
-    border-radius: 41px;
-    border: 2px solid #F4F6FC;
-    color: white;
-    margin-left: 50px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-}
-
-.btn-lg:hover{
-    background-color: inherit;
-    padding: 16px 48px;
-    border-radius: 41px;
-    border: 2px solid #98a6cf;
-    color: white;
-    margin-left: 50px;
-}
-
 .designanddevel{
     font-family: 'Poppins';
     font-style: normal;
