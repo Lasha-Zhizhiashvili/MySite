@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap%27%27');
+
+.navbar{
+    background-color: #1C1E53;
+}
+
+.row>*{
+    width: auto !important;
+}
+
+.navbar-brand{
+    color: white;
+    padding: 21px 16px;
+}
+
+.nav-link{
+    color: #BBBBCB;
+    padding: 25px 16px !important;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.nav-link:hover{
+    color: white;
+}
+
+.wtfman{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.myg{
+    padding: 10px;
+}
+
+.btn-lg{
+    background-color: inherit;
+    padding: 16px 48px;
+    border-radius: 41px;
+    border: 2px solid #F4F6FC;
+    color: white;
+    margin-left: 50px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.btn-lg:hover{
+    background-color: inherit;
+    padding: 16px 48px;
+    border-radius: 41px;
+    border: 2px solid #98a6cf;
+    color: white;
+    margin-left: 50px;
+}
+
+.text p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+    opacity: 0.7;
+}
+
+.text{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text h2{
+    padding-top: 128px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    color: #282938;
+
+}
+.mamaimacriminal{
+    position: relative;
+    padding-top: 16px;
+}
+
+.post{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #282938; 
+}
+
+.smalala{
+    align-content: center;
+    width: 100%;
+    padding-top: 32px;
+}
+
+.iwannaendmyfuckinglife{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #282938;
+    opacity: 0.7;
+    padding-top: 48px;
+}
+
+.readmore{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #2405F2;
+    opacity: 0.7;
+    padding-top: 16px;
+}
+
+.service-title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    color: #282938;
+    padding-top: 128px;
+    padding-bottom: 48px;
+}
+
+.blog-img{
+    width: 100%;
+}
+
+.blog-info h6{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #282938; 
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.col-md-4{
+    width: 33.33333%;
+}
+
+.blog-img img{
+    width: 420px;
+    height: 297px;
+    max-width: 100%;
+}
+
+.wtfman{
+    width: 100% !important;
+}
+
+.read-more{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #1C1E53;
+    text-decoration: none;
+}
+
+.para22{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+    opacity: 0.7;
+    padding-bottom: 24px;
+}
+
+.blog-info p{
+    padding-top: 32px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #282938;
+    opacity: 0.7;
+}
+
+footer{
+    background-color: #1C1E53;
+    margin-top: 128px;
+}
+
+.box-foot{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100% !important;
+}
+
+.col-foot{
+    width: 50%;
+}
+
+.svgsvgsvg{
+    margin-top: 100px;
+}
+
+.read-foot p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 86px;
+}
+
+.box-foot1{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.col-foot1{
+    width: 40%;
+    background-color: rgba(252, 217, 128, 1);
+}
+
+.read-foot1{
+    height: 95px;
+    padding-left: 0;
+}
+
+.read-foot1 p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 18px 0 1px 20px;
+    margin: 0;
+    color: rgb(0, 0, 43);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+#mymy{
+    padding-top: 3px;
+    color: #5c5c5c;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#mymy1{
+    padding-top: 3px;
+    color: #5c5c5c;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.read-foot h2{
+    padding-top: 100px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    color: white;
+}
+
+#mymy3{
+    padding-top: 14px;
+    padding-bottom: 8px;
+}
+
+
+.iconsicons{
+    margin: 0 15px;
+}
+
+.iconsicons1{
+    margin-right: 15px;
+}
+
+.navbarnavbar{
+    background-color: white;
+}
+
+.nav-link1{
+    color: black;
+}
+
+.nav-link1:hover{
+    color: black;
+}
+
+.navbar-brand1{
+    color: black;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+@media (max-width: 1399px){
+    .col-md-4{
+        width: 50%;
+    }
+
+    .blog-img img{
+        width: 538px;
+        height: 297px;
+    }
+    
+}
+
+@media (max-width: 991px){
+    
+
+    .blog-img img{
+        width: 500px;
+        height: 297px;
+        overflow: hidden;
+    }
+    
+}
+
+
+
+@media (max-width: 1199px){
+    .col-md-4{
+        width: 100%;
+    }
+
+    .blog-img img{
+        width: 916px;
+        height: 297px;
+    }
+    
+}
+
+@media (max-width: 1000px){
+    .col-foot{
+        width: 100%;
+    }
+
+    .justendit{
+        padding-bottom: 20px !important;
+    }
+
+    .read-foot h2{
+        padding-top: 40px;
+    }
+
+    .box-foot{
+        height: 640px;
+    }
+}
+
+@media (max-width: 576px){
+    .col-foot{
+        margin: 10px;
+    }
+
+    .col-foot1{
+        width: 80%;
+    }
+
+    .box-foot{
+        height: 740px;
+    }
+
+    .row>* {
+        padding-left: 10px;
+    }
+}
+
+
+@media (max-width: 430px){
+    .box-foot{
+        height: 800px;
+    }
+}
