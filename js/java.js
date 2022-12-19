@@ -9,14 +9,17 @@ let undef = undefined;
 let nan = NaN;
 let s ;
 
-console.log(obj);
-console.log(numb);
-console.log(str);
-console.log(arr);
-console.log(obj);
-console.log(funs);
-console.log(bool);
-console.log(fals);
-console.log(undef);
-console.log(nan);
-console.log(s);
+function ipalaqi(numb , str , arr , obj , funs , bool , fals , undef , nan , s){
+    console.log(numb , str , arr , obj , funs , bool , fals , undef , nan , s)
+}
+
+ipalaqi(numb)
+ipalaqi(str)
+ipalaqi(arr)
+ipalaqi(obj)
+ipalaqi(funs)
+ipalaqi(bool)
+ipalaqi(fals)
+ipalaqi(undef)
+ipalaqi(nan)
+ipalaqi(s)
