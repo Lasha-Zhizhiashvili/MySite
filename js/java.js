@@ -9,17 +9,8 @@ let undef = undefined;
 let nan = NaN;
 let s ;
 
-function ipalaqi(numb , str , arr , obj , funs , bool , fals , undef , nan , s){
-    console.log(numb , str , arr , obj , funs , bool , fals , undef , nan , s)
-}
+let grades = [numb, arr, obj, funs, bool, fals, undef, nan, s]
 
-ipalaqi(numb)
-ipalaqi(str)
-ipalaqi(arr)
-ipalaqi(obj)
-ipalaqi(funs)
-ipalaqi(bool)
-ipalaqi(fals)
-ipalaqi(undef)
-ipalaqi(nan)
-ipalaqi(s)
+for(let i =0; i < grades.length; ++i){
+    console.log(grades[i])
+}
