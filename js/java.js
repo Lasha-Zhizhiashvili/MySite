@@ -1,16 +1,17 @@
-let numb = 25; 
-let str = 'string' 
-let arr = [54, 'sad'];
-let obj = {email:'blablabla@gmail.com'};
-let funs = function(){};
-let bool = true;
-let fals = false;
-let undef = undefined;
-let nan = NaN;
-let s ;
+let myname = 'მე ვარ ჯუნიორ დეველოპერი'
 
-let grades = [numb, arr, obj, funs, bool, fals, undef, nan, s]
+let mynameCounter = myname.length
 
-for(let i =0; i < grades.length; ++i){
-    console.log(grades[i])
-}
+console.log(mynameCounter)
+
+let mynameDiff = myname.replace("ჯუნიორ","სენეორ")
+
+console.log(mynameDiff)
+
+let mynameSliced = myname.slice(7,13)
+
+console.log(mynameSliced)
+
+let mynameIsIt = myname.includes("დეველოპერი")
+
+console.log(mynameIsIt)
