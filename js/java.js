@@ -1,17 +1,25 @@
-let myname = 'მე ვარ ჯუნიორ დეველოპერი'
+let numb = 10.4
 
-let mynameCounter = myname.length
+let round = numb.toFixed(1)
+let round1 = numb.toFixed(2)
+let round2 = numb.toFixed(3)
 
-console.log(mynameCounter)
+console.log(round)
+console.log(round1)
+console.log(round2)
 
-let mynameDiff = myname.replace("ჯუნიორ","სენეორ")
+let gg = Math.round(numb)
 
-console.log(mynameDiff)
+console.log(gg)
 
-let mynameSliced = myname.slice(7,13)
+let gg1 = Math.ceil(numb)
 
-console.log(mynameSliced)
+console.log(gg1)
 
-let mynameIsIt = myname.includes("დეველოპერი")
+let gg2 = Math.floor(numb)
 
-console.log(mynameIsIt)
+console.log(gg2)
+
+let rand = (Math.random() * (20 - 10) + 10)
+
+console.log(rand)
