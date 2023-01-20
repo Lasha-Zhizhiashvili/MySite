@@ -1,25 +1,76 @@
-let numb = 10.4
+let big = {
+    name: 'jarvis',
+    img: 'https://st2.depositphotos.com/3758943/6040/i/450/depositphotos_60400957-stock-photo-the-man-in-the-office.jpg',
+    age: 80,
+    registered: '0/00/0000',
+    learning: 'b++',
+    attend: 99,
+    willHePass: true,
+}
 
-let round = numb.toFixed(1)
-let round1 = numb.toFixed(2)
-let round2 = numb.toFixed(3)
+let sr = `<div class="card" style="width: 18rem;">
+<img src="${big.img}" class="card-img-top" alt="">
+<div class="card-body">
+  <h5 class="card-title">${big.name}</h5>
+  <p class="card-text">${big.age}</p>
+  <span id='gg' >is he stipendian</span>
+  <span id='notgg' >successful</span>
+</div>
+</div>`
 
-console.log(round)
-console.log(round1)
-console.log(round2)
+document.getElementById('dav').innerHTML = sr;
 
-let gg = Math.round(numb)
+if (willHePass = true){
+    document.getElementById('gg').style.backgroundColor = 'green'
+}
 
-console.log(gg)
+else if (willHePass = false){
+    document.getElementById('gg').style.backgroundColor = 'red'
+}
 
-let gg1 = Math.ceil(numb)
+if (big.attend >= '100') {
+    document.getElementById('notgg').style.backgroundColor = 'green'
+}
 
-console.log(gg1)
+else if (big.attend < '100') {
+    document.getElementById('notgg').style.backgroundColor = 'red'
+}
 
-let gg2 = Math.floor(numb)
 
-console.log(gg2)
+let big1 = {
+    name1: 'jarvis1',
+    img1: 'https://st2.depositphotos.com/3758943/6040/i/450/depositphotos_60400957-stock-photo-the-man-in-the-office.jpg',
+    age1: 68,
+    registered1: '1/00/0000',
+    learning1: 'b+',
+    attend1: 100,
+    willHePass1: false,
+}
 
-let rand = (Math.random() * (20 - 10) + 10)
+let sr1 = `<div class="card" style="width: 18rem;">
+<img src="${big1.img1}" class="card-img-top" alt="">
+<div class="card-body">
+  <h5 class="card-title">${big1.name1}</h5>
+  <p class="card-text">${big1.age1}</p>
+  <span id='gg1' >is he stipendian</span>
+  <span id='notgg1' >successfull</span>
+</div>
+</div>`
 
-console.log(rand)
+document.getElementById('dav1').innerHTML = sr1;
+
+if (willHePass1 = true){
+    document.getElementById('gg1').style.backgroundColor = 'green'
+}
+
+else if (willHePass1 = false){
+    document.getElementById('gg1').style.backgroundColor = 'red'
+}
+
+if (big1.attend1 >= '100') {
+    document.getElementById('notgg1').style.backgroundColor = 'green'
+}
+
+else if (big1.attend1 < '100') {
+    document.getElementById('notgg1').style.backgroundColor = 'red'
+}
