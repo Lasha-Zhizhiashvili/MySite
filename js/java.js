@@ -1,22 +1,26 @@
-let counterDisplayElem = document.querySelector('.counter-display');
-let counterMinusElem = document.querySelector('.counter-minus');
-let counterPlusElem = document.querySelector('.counter-plus');
+let get = document.getElementById('you')
+let hav = document.getElementById('have')
 
-let count = 0;
+get.addEventListener('click', function(){
+    if(hav.classList == 'gg'){
+        hav.classList.remove('gg');
+        hav.classList.add('gg1')
+    }else{
+        hav.classList = 'gg'
+    }
+})
 
+let inp = document.getElementById('put')
+let eye = document.getElementById('eyes')
 
-function updateDisplay(){
-    counterDisplayElem.innerHTML = count;
-};
-
-counterPlusElem.addEventListener("click",()=>{
-    updateDisplay();
-    count++;
-});
-
-counterMinusElem.addEventListener("click",()=>{
-    updateDisplay();
-    count--;
-});
-
-updateDisplay();
+eye.addEventListener('click', function(){
+    if(inp.type == 'password'){
+        inp.setAttribute('type','text')
+        eye.classList.remove('bi-eye-slash-fill')
+        eye.classList.add('bi-eye-fill')
+    }else{
+        inp.setAttribute('type','password')
+        eye.classList.remove('bi-eye-fill')
+        eye.classList.add('bi-eye-slash-fill')
+    }
+})
