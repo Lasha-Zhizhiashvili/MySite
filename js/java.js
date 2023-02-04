@@ -1,26 +1,49 @@
-let get = document.getElementById('you')
-let hav = document.getElementById('have')
+let butt = document.getElementById('but')
+let hid = document.getElementById('hid')
 
-get.addEventListener('click', function(){
-    if(hav.classList == 'gg'){
-        hav.classList.remove('gg');
-        hav.classList.add('gg1')
-    }else{
-        hav.classList = 'gg'
+butt.addEventListener('click', function(){
+    if (hid.style.display == 'none'){
+        hid.style.display = 'block'
     }
+    else{
+        hid.style.display = 'none'
+    }
+   
 })
 
-let inp = document.getElementById('put')
-let eye = document.getElementById('eyes')
+hid.addEventListener('click', function(){
+    document.getElementById('hid').style.display = 'none'
+ })
 
-eye.addEventListener('click', function(){
-    if(inp.type == 'password'){
-        inp.setAttribute('type','text')
-        eye.classList.remove('bi-eye-slash-fill')
-        eye.classList.add('bi-eye-fill')
-    }else{
-        inp.setAttribute('type','password')
-        eye.classList.remove('bi-eye-fill')
-        eye.classList.add('bi-eye-slash-fill')
+
+let butt1 = document.getElementById('butt1')
+let only = document.getElementById('only')
+let form = document.getElementById('reg')
+
+butt1.addEventListener('click', function(){
+    let value = only.value
+    let neww = document.createElement('div')
+    let newww = document.createElement('p')
+    neww.appendChild(newww)
+    form.appendChild(neww)
+    neww.style.width = '185px'
+    neww.style.backgroundColor = 'red'
+    newww.textContent = value
+    only.value = ''
+    newww.addEventListener('click', function(){
+        this.remove()
+    })
+})
+
+let tag = document.getElementById('tag')
+let butt2 = document.getElementById('butt2')
+
+tag.addEventListener('keypress', function(tag){
+    let value1 = tag.value
+    if(tag.charCode == 13){
+        let span = document.createElement('span')
+        span.textContent = value1
+        tag.value = ''
+        
     }
 })

@@ -1,17 +1,18 @@
-.gg1 {
-    background-image: url(https://c8.alamy.com/comp/2J0Y4NK/happy-emoji-emoticon-showing-double-thumbs-up-like-2J0Y4NK.jpg);
-    height: 500px;
-    width: 500px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
+#but{
+    background-color: blue;
+    color: white;
 }
 
-.gg {
-    background-image: url(https://media.istockphoto.com/id/157024650/vector/dislike-emoticon.jpg?s=612x612&w=0&k=20&c=-JdWx3h3u3DfB6hxecoQl52niIN-pV-uCRIILGSTAr0=);
-    height: 500px;
-    width: 500px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+#hid{
+    display: none;
+}
+
+#tag{
+    width: 260px;
+    height: 30px;
 }
