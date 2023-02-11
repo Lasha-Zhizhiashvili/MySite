@@ -1,91 +1,108 @@
-let but = document.getElementById('but')
+let correct = document.getElementById('correct')
 
-let butt = document.getElementById('butt')
-let butt1 = document.getElementById('butt1')
+document.addEventListener('scroll', function(){
+    if (scrollY == 500){
+        let active = document.querySelector('li.active')
+        let active1 = document.querySelector('section.active1')
+        active1.classList.remove('active1')
+        active.classList.remove('active')
+        active1.nextElementSibling.classList.add('active1')
+        active.nextElementSibling.classList.add('active')
+    }
 
-let buttt = document.getElementById('buttt')
-let buttt1 = document.getElementById('buttt1')
+    if (scrollY == 1000){
+        let active = document.querySelector('li.active')
+        let active1 = document.querySelector('section.active1')
+        active1.classList.remove('active1')
+        active.classList.remove('active')
+        active1.nextElementSibling.classList.add('active1')
+        active.nextElementSibling.classList.add('active')
+    }
 
-let first = document.getElementById('first')
-let second = document.getElementById('second')
-let third = document.getElementById('third')
+    if (scrollY == 1500){
+        let active = document.querySelector('li.active')
+        let active1 = document.querySelector('section.active1')
+        active1.classList.remove('active1')
+        active.classList.remove('active')
+        active1.nextElementSibling.classList.add('active1')
+        active.nextElementSibling.classList.add('active')
+    }
 
-let final = document.getElementById('final')
+    if (scrollY == 2000){
+        let active = document.querySelector('li.active')
+        let active1 = document.querySelector('section.active1')
+        active1.classList.remove('active1')
+        active.classList.remove('active')
+        active1.nextElementSibling.classList.add('active1')
+        active.nextElementSibling.classList.add('active')
+    }
 
-let ser1 = document.getElementById('ser1')
-let sor1 = document.getElementById('sor1')
+    if (scrollY == 2500){
+        let active = document.querySelector('li.active')
+        let active1 = document.querySelector('section.active1')
+        active1.classList.remove('active1')
+        active.classList.remove('active')
+        active1.nextElementSibling.classList.add('active1')
+        active.nextElementSibling.classList.add('active')
+    }
 
-let ser2 = document.getElementById('ser2')
-let sor2 = document.getElementById('sor2')
-
-let ser3 = document.getElementById('ser3')
-let sor3 = document.getElementById('sor3')
-
-
-
-but.addEventListener('click', function(){
-    first.style.display = 'none'
-    second.style.display = 'flex'
-
-    ser1.style.color = 'gray'
-    sor1.style.backgroundColor = 'gray'
-
-    ser2.style.color = 'rgb(11, 8, 219)'
-    sor2.style.backgroundColor = 'rgb(11, 8, 219)'
+    if (scrollY == 3000){
+        let active = document.querySelector('li.active')
+        let active1 = document.querySelector('section.active1')
+        active1.classList.remove('active1')
+        active.classList.remove('active')
+        active1.nextElementSibling.classList.add('active1')
+        active.nextElementSibling.classList.add('active')
+    }
 })
 
-butt.addEventListener('click', function(){
-    first.style.display = 'flex'
-    second.style.display = 'none'
+let li1 = document.getElementById('li1')
+let li2 = document.getElementById('li2')
+let li3 = document.getElementById('li3')
+let li4 = document.getElementById('li4')
+let li5 = document.getElementById('li5')
+let li6 = document.getElementById('li6')
 
-    ser1.style.color = 'rgb(11, 8, 219)'
-    sor1.style.backgroundColor = 'rgb(11, 8, 219)'
-
-    ser2.style.color = 'gray'
-    sor2.style.backgroundColor = 'gray'
+li1.addEventListener('click', function(){
+    let active = document.querySelector('li.active')
+    active.classList.remove('active')
+    li1.classList.add('active')
+    document.scrollY = 500
 })
 
-butt1.addEventListener('click', function(){
-    second.style.display = 'none'
-    third.style.display = 'flex'
-
-    ser2.style.color = 'gray'
-    sor2.style.backgroundColor = 'gray'
-    
-    ser3.style.color = 'rgb(11, 8, 219)'
-    sor3.style.backgroundColor = 'rgb(11, 8, 219)'
+li2.addEventListener('click', function(){
+    let active = document.querySelector('li.active')
+        active.classList.remove('active')
+    li2.classList.add('active')
+    document.scrollY = 1000
 })
 
-buttt.addEventListener('click', function(){
-    second.style.display = 'flex'
-    third.style.display = 'none'
-
-    ser2.style.color = 'rgb(11, 8, 219)'
-    sor2.style.backgroundColor = 'rgb(11, 8, 219)'
-    
-    ser3.style.color = 'gray'
-    sor3.style.backgroundColor = 'gray'
+li3.addEventListener('click', function(){
+    let active = document.querySelector('li.active')
+        active.classList.remove('active')
+    li3.classList.add('active')
+    document.scrollY = 1500
 })
 
-buttt1.addEventListener('click', function(){
-    third.style.display = 'none'
-    final.style.display = 'block'
-
-    ser1.style.color = 'rgb(11, 8, 219)'
-    sor1.style.backgroundColor = 'rgb(11, 8, 219)'
-
-    ser2.style.color = 'rgb(11, 8, 219)'
-    sor2.style.backgroundColor = 'rgb(11, 8, 219)'
-    
-    ser3.style.color = 'rgb(11, 8, 219)'
-    sor3.style.backgroundColor = 'rgb(11, 8, 219)'
+li4.addEventListener('click', function(){
+    let active = document.querySelector('li.active')
+        active.classList.remove('active')
+    li4.classList.add('active')
+    document.scrollY = 2000
 })
 
-
-let change = document.getElementById('colorchange')
-let numbs = document.getElementById('numbs')
-
-change.addEventListener('click', function(){
-    
+li5.addEventListener('click', function(){
+    let active = document.querySelector('li.active')
+        active.classList.remove('active')
+    li5.classList.add('active')
+    document.scrollY = 2500
 })
+
+li6.addEventListener('click', function(){
+    let active = document.querySelector('li.active')
+        active.classList.remove('active')
+    li6.classList.add('active')
+    document.scrollY = 3000
+})
+
 
