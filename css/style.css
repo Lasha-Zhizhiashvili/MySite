@@ -1,66 +1,161 @@
-.sec1{
-    width: 100%;
-    height: 100vh;
-    border-bottom: 2px solid black;
+*{
+    box-sizing: border-box;
 }
 
-.sec2{
-    width: 100%;
-    height: 100vh;
-    border-bottom: 2px solid black;
+body{
+    margin: 0;
+    background-color: rgb(223, 221, 218);
+    overflow-x: hidden;
 }
 
-.sec3{
-    width: 100%;
-    height: 100vh;
-    border-bottom: 2px solid black;
-}
-
-.sec4{
-    width: 100%;
-    height: 100vh;
-    border-bottom: 2px solid black;
-}
-
-.sec5{
-    width: 100%;
-    height: 100vh;
-    border-bottom: 2px solid black;
-}
-
-.sec6{
-    width: 100%;
-    height: 100vh;
-    border-bottom: 2px solid black;
-}
-
-.nav{
-    justify-content: center;
-    background-color: rgb(36, 36, 36);
-    position: fixed;
-    width: 100%;
-}
-
-#correct{
-    list-style: none;
-    padding-left: 0;
+.box{
     display: flex;
-    margin-bottom: 0;
+    flex-wrap: wrap;
+    margin: 0 400px;
 }
 
-#correct li{
-    padding: 20px;
+.coll{
+    width: 33.3333%;
+    padding: 10px;
+    position: relative;
+}
+
+.read{
+    text-align: center;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    overflow: hidden;
+}
+
+.read img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 200px;
+    transition: all 0.2s linear;
+    margin-bottom: 20px;
+}
+
+.read img:hover{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 200px;
+    scale: 1.1;
+}
+
+.circle, .circle1, .circle2, .circle3, .circle4, .circle5 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    background-color: white;
+    z-index: 999;
+    width: 100px;
+    height: 31.5px;
+    opacity: 0;
+    transition: all 0.3s linear;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.box1{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    z-index: 99999;
+    transition: all 1s linear;
+}
+
+.coll1{
+    width: 100%;
+}
+
+.reeed, .reeed1, .reeed2, .reeed3, .reeed4, .reeed5{
+    text-align: center;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 900px;
+    height: 900px;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.read1 img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 100%;
+    height: 400px;
+    transition: all 0.2s linear;
+    margin-bottom: 20px;
+}
+
+.but, .but1, .but2, .but3, .but4, .but5{
+    position: absolute;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: initial;
+    z-index: 999999;
     color: white;
 }
 
-.sec1 :first-child{
-    padding-top: 80px;
+@keyframes medi{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
 }
 
-.active{
-    background-color: rgb(185, 172, 172);
-    color: black !important;
+@keyframes diss{
+    0%{
+        border-radius: 50%;
+    }
+
+    100%{
+        border-radius: 0;
+    }
 }
 
+@media (max-width: 1600px){
+    .box{
+        margin: 0 150px;
+    }
+}
 
+@media (max-width: 1000px){
+    .coll{
+        width: 50%;
+    }
 
+}
+
+@media (max-width: 650px){
+    .coll{
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px){
+    .coll{
+        width: 100%;
+    }
+    .box{
+        margin: 0 20px;
+    }
+}
